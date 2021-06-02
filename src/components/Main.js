@@ -8,6 +8,11 @@ import './Main.css';
 export default class Main extends Component {
   state = {
     novaTarefa: '',
+    tarefa: [
+      'cafe',
+      'agua',
+      'estudar',
+    ]
   };
 
   handleChange = (e) => {
